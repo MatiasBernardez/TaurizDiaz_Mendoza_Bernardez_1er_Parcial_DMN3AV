@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo.css">
+    <title>TaurizDiaz_Mendoza_Bernardez_1er_Parcial_DMN3AV</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1 id="logo">Innovate Media</h1>
+            <div>
+                <ul>¿Quienes somos?</ul>
+                <ul>Nuestros servicios</ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="banner">
+        <h2>Innovate Media</h2>
+        <p> Creando experiencias visuales que conectan e inspiran.</p>
+        <a href="#">Conocenos</a>
+    </section>
+    
+    <section id="nosotros">
+        <h3>¿Quienes somos?</h3>
+
+        <div>
+            <h4>Alejandra Mendoza</h4>
+            <p>
+                Edad: 22 años<br>
+                Fecha de nacimiento: 24/11/2002<br>
+                Carrera: Diseño Multimedial<br> Leer libros, pintar al oleo, manejo de camaras en streaming y la música.<br>
+                <br>
+            </p>
+            <picture> 
+                <img src="./imagenes/foto_perfil_ale.jpeg" alt="Alejandra" class="ale">
+            </picture>
+
+            <h4><br>Matias Bernardez</h4>
+            <p>
+                Edad: 27 años<br>
+                Fecha de nacimiento: 12/10/1997<br>
+                Carrera: Diseño Multimedial<br>
+                Hobbies y pasatiempos: videojuegos, en general singleplayer, series (ciencia ficción y fantasía), fútbol y música.<br>
+                <br>
+            </p>
+
+            <picture> 
+                <img src="./imagenes/foto_perfil.jpeg" alt="Matías" class="mati">
+            </picture>
+
+            <h4><br>Nahiara Malen Tauriz Diaz</h4>
+            <p>
+                Edad: 25 años<br>
+                Fecha de nacimiento: 29/01/2000<br>
+                Carrera: Diseño Multimedial<br>
+                Hobbies y pasatiempos: Todo lo relacionado con el arte, escribir, dibujar, escuchar música 24/7.<br>
+                <br>
+            </p>
+
+            <picture> 
+                <img src="./imagenes/WhatsApp Image 2025-04-03 at 20.41.34.jpeg" alt="Nahiara" class="nai">
+            </picture>
+        </div>
+    </section>
+
+    <section id="canvas-multi">
+        <h3>Pintá y descubrí parte de nuestro trabajo</h3>
+        <div id="canvas-container"></div>
+    </section>
+
+    <section id="video-section">
+        <h3>Un poco más de lo que hacemos</h3>
+        <div id="video-container"></div>
+        <button id="video-button">Reproducir</button>
+    </section>
+
+    <section id="info">
+        <h4>Nuestros servicios</h4>
+    
+        <div>
+             <article>
+                <figure>
+                    <picture>
+                        <source media="(max-width: 650px)" srcset="./imagenes/pastilla_uno_mob.jpg">
+                        <source media="(max-width: 950px)" srcset="./imagenes/pastilla_uno_tab.jpg">
+                        <img src="./imagenes/pastilla_uno.jpg" alt="Edicion de video">
+                        </picture>
+                </figure>
+
+                <h3>Edición de Video</h3>
+                <p>Transformamos tus ideas en historias visuales impactantes. Nuestra edición de video combina creatividad y técnica para crear contenido que conecte con tu audiencia.</p>
+            </article>
+
+            <article>
+                <figure>
+                    <picture>
+                        <source media="(max-width: 650px)" srcset="./imagenes/pastilla_dos_mob.jpg">
+                        <source media="(max-width: 950px)" srcset="./imagenes/pastilla_dos_tab.jpg">
+                        <img src="./imagenes/pastilla_dos.jpg" alt="Montaje Publicitario">
+                    </picture>
+                </figure>
+
+                <h3>Montaje Publicitario</h3>
+                <p>Captura la atención de tu público objetivo con nuestros montajes publicitarios innovadores. Creamos campañas visuales que promueven tu marca y impulsan tus ventas.</p>
+            </article>
+
+            <article>
+                <figure>
+                    <picture>
+                        <source media="(max-width: 650px)" srcset="./imagenes/pastilla_tres_mob.jpg">
+                        <source media="(max-width: 950px)" srcset="./imagenes/pastilla_tres_tab.jpg">
+                        <img src="./imagenes/pastilla_tres.jpg" alt="Programación Web">
+                    </picture>
+                </figure>
+            </article>
+        </div>
+
+    <footer id="footer">
+        <div class="footer_contenido">
+            <p>&copy; 2025 Empresa Multimedia. Todos los derechos reservados.</p>
+            <p>Mendoza Alejandra, Tauriz Nahiara, Matias Bernardez <br> Diseño y Programacion Web I <br> Turno Noche DMN3AV</p>
+            <div class="redes_sociales">
+                <a href="https://facebook.com" target="_blank"><img src="./imagenes/facebook.png" alt="Facebook"></a>
+                <a href="https://whatsapp.com" target="_blank"><img src="./imagenes/whatsapp.png" alt="WhatsApp"></a>
+                <a href="https://instagram.com" target="_blank"><img src="./imagenes/instagram.png" alt="Instagram"></a>
+                <a href="https://youtube.com" target="_blank"><img src="./imagenes/youtube.png" alt="YouTube"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+    <script src="./sketch.js"></script>
+
+</body>
+</html>
